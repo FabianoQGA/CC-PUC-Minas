@@ -1,6 +1,6 @@
-# Ciência da Computação 2022 — Arquivo Geral
+# Arquivo pessoal geral - Ciência da computação 2022
 
-> Biblioteca de projetos, trabalhos e outras atividades desenvolvidas ao longo do meu curso de graduação.
+Biblioteca de projetos, trabalhos e outras atividades desenvolvidas ao longo do meu curso de graduação.
 
 ## Sobre o repositório
 
@@ -9,143 +9,215 @@ Não armazeno provas, materiais teóricos nem outros tipos de materiais, apenas 
 > Para saber mais sobre uma disciplina aperte nela para ver um descrição dela.
 > Materiais de cada disciplina estão na pasta com sua abreviação correspondente.
 
-# Lista de disciplinas
+# Index de disciplinas
 
 Esta seção organiza e descreve cada matéria já feita ou em andamento.
 
-| Disciplina                                              | Sigla   |
-| ------------------------------------------------------- | ------  |
-| Algoritmos e Estruturas de Dados I                      | AEDSI   |
-| Desenvolvimento e Interfaces Web                        | DIW     |
-| Trabalho Interdisciplinar I - Aplicações Web            | TIAW    |
-| Laboratório de Iniciação à Programação                  | LIP     |
-| Introdução à Computação                                 | IC      |
-| Cálculo I                                               | CALCI   |
-| Algoritmos e Estruturas de Dados II                     | AEDSII  |
-| Banco de Dados                                          | BD      |
-| Trabalho Interdisciplinar II Banco de Dados             | TIBD    |
-| Arquitetura de Computadores I                           | AC1     |
-| Introdução aos Sistemas Inteligentes                    | ISI     |
-| Cultura Religiosa: Fenômeno Religioso                   | CR:FR   |
-| Cálculo II                                              | CALC2   |
-| Arquitetura de Computadores II                          | AC2     |
-| Trabalho Interdisciplinar III Pesquisa Aplicada         | TIPA    |
-| Engenharia de Software I                                | ES1     |
-| Estatística e Probabilidade                             | EP      |
-| Game Design                                             | GD      |
-| Filosofia: Razão e Modernidade                          | F:RM    |
-| Arquitetura de Computadores III                         | AC3     |
-| Filosofia: Antropologia e Ética                         | F:AE    |
-| Algoritmos e Estruturas de Dados III                    | AEDSIII |
-| Trabalho Interdisciplinar IV: Aplicações Móveis         | TIAM    |
-| Linguagens de Programação                               | LP      |
-| Psicologia do Consumo                                   | PC      |
-| Laboratório de Desenvolvimento para Dispositivos Móveis | LDDM    |
-| Sistemas Operacionais                                   | SO      |
-| Teoria dos Grafos e Computabilidade                     | TGC     |
-| Modelagem e Análise de Dispositivos                     | MAD     |
-| Inteligência Artificial                                 | IA      |
-| Engenharia de Software II                               | ES2     |
-| Geometria Analítica e Álgebra Linear                    | GAAL    |
-| Projeto e Análise de Algoritmos                         | PAA     |
-| Redes de Computadores I                                 | RI      |
-| Segurança e Auditoria de Sistemas                       | SAS     |
-| Otimização de Sistemas                                  | OS      |
-| Trabalho Interdisciplinar V: Sistemas Computacionais    | TISC    |
-| Computadores e Sociedade                                | CS      |
+| Disciplina                                                       | Sigla |
+| ---------------------------------------------------------------- | ----- |
+| [Algoritmos e Estruturas de Dados I](#aeds1)                     | AEDS1 |
+| [Desenvolvimento e Interfaces Web](#diw)                         | DIW   |
+| [Trabalho Interdisciplinar I - Aplicações Web](#tiaw)            | TIAW  |
+| [Laboratório de Iniciação à Programação](#lip)                   | LIP   |
+| [Introdução à Computação](#ic)                                   | IC    |
+| [Cálculo I](#calc1)                                              | CALC1 |
+| [Algoritmos e Estruturas de Dados II](#aeds2)                    | AEDS2 |
+| [Banco de Dados](#bd)                                            | BD    |
+| [Trabalho Interdisciplinar II Banco de Dados](#tibd)             | TIBD  |
+| [Arquitetura de Computadores I](#ac1)                            | AC1   |
+| [Introdução aos Sistemas Inteligentes](#isi)                     | ISI   |
+| [Cultura Religiosa: Fenômeno Religioso](#crfr)                   | CR:FR |
+| [Cálculo II](#calc2)                                             | CALC2 |
+| [Arquitetura de Computadores II](#ac2)                           | AC2   |
+| [Trabalho Interdisciplinar III Pesquisa Aplicada](#tipa)         | TIPA  |
+| [Engenharia de Software I](#es1)                                 | ES1   |
+| [Estatística e Probabilidade](#ep)                               | EP    |
+| [Game Design](#gd)                                               | GD    |
+| [Filosofia: Razão e Modernidade](#frm)                           | F:RM  |
+| [Arquitetura de Computadores III](#ac3)                          | AC3   |
+| [Filosofia: Antropologia e Ética](#fae)                          | F:AE  |
+| [Algoritmos e Estruturas de Dados III](#aeds3)                   | AEDS3 |
+| [Trabalho Interdisciplinar IV: Aplicações Móveis](#tiam)         | TIAM  |
+| [Linguagens de Programação](#lp)                                 | LP    |
+| [Psicologia do Consumo](#pc)                                     | PC    |
+| [Laboratório de Desenvolvimento para Dispositivos Móveis](#lddm) | LDDM  |
+| [Sistemas Operacionais](#so)                                     | SO    |
+| [Teoria dos Grafos e Computabilidade](#tgc)                      | TGC   |
+| [Modelagem e Análise de Dispositivos](#mad)                      | MAD   |
+| [Inteligência Artificial](#ia)                                   | IA    |
+| [Engenharia de Software II](#es2)                                | ES2   |
+| [Geometria Analítica e Álgebra Linear](#gaal)                    | GAAL  |
+| [Projeto e Análise de Algoritmos](#paa)                          | PAA   |
+| [Redes de Computadores I](#ri)                                   | RI    |
+| [Segurança e Auditoria de Sistemas](#sas)                        | SAS   |
+| [Otimização de Sistemas](#os)                                    | OS    |
+| [Trabalho Interdisciplinar V: Sistemas Computacionais](#tisc)    | TISC  |
+| [Computadores e Sociedade](#cs)                                  | CS    |
 
+## AEDS1
 
-## Descrição de disciplinas
+`Introdução à lógica de programação, variáveis, laços de repetição e vetores na linguagem base do curso`
 
-**AEDSI** - `Introdução à lógica de programação, variáveis, laços de repetição e vetores na linguagem base do curso`
+## DIW
 
-**DIW** - `Criação de front-end estático e responsivo utilizando HTML, CSS e JavaScript básico`
+`Criação de front-end estático e responsivo utilizando HTML, CSS e JavaScript básico`
 
-**TIAW** - `Projeto prático em grupo que integra o aprendizado do semestre para entregar uma aplicação web funcional`
+## TIAW
 
-**LIP** - `Aulas práticas diretamente no computador para exercitar a sintaxe da linguagem e resolver problemas lógicos`
+`Projeto prático em grupo que integra o aprendizado do semestre para entregar uma aplicação web funcional`
 
-**IC** - `Sistemas de numeração (binário/hexadecimal), hardware, software e o panorama geral da profissão`
+## LIP
 
-**CALCI** - `Estudo de limites, derivadas, integrais e aplicações em taxas de variação`
+`Aulas práticas que abordam conteúdos básicos de: robótica, engine de jogos e programação prática`
 
-**AEDSII** - `Estruturas lineares dinâmicas, como pilhas, filas, listas encadeadas e métodos clássicos de ordenação`
+## IC
 
-**BD** - `Modelagem de dados relacional (MER/DER) e manipulação de informações utilizando a linguagem estruturada SQL`
+`Sistemas de numeração (binário/hexadecimal), hardware, software e o panorama geral da profissão`
 
-**TIBD** - `Projeto prático que integra uma interface web a um banco de dados real e modelado pelos alunos`
+## CALC1
 
-**AC1** - `Álgebra booleana, portas lógicas e o design de circuitos digitais combinacionais e sequenciais`
+`Estudo de limites, derivadas, integrais e aplicações em taxas de variação (Cálculo Diferencial)`
 
-**ISI** - `Panorama geral sobre agentes autônomos, heurísticas de busca e conceitos básicos de aprendizado de máquina`
+## AEDS2
 
-**CR:FR** - `Reflexão humanística sobre o papel das religiões e da fé na construção da sociedade`
+`Estruturas lineares dinâmicas, como pilhas, filas, listas encadeadas e métodos clássicos de ordenação`
 
-**CALC2** - `Expansão matemática englobando derivadas parciais, funções de várias variáveis e integrais múltiplas`
+## BD
 
-**AC2** - `Organização do processador, conjunto de instruções, programação em baixo nível (Assembly) e caminho de dados`
+`Modelagem de dados relacional (MER/DER) e manipulação de informações utilizando a linguagem estruturada SQL`
 
-**TIPA** - `Projeto que foca na construção de um back-end robusto aplicando o método científico para solucionar um problema real`
+## TIBD
 
-**ES1** - `Engenharia de requisitos, casos de uso e metodologias ágeis (como Scrum) para o ciclo de vida do software`
+`Projeto prático que integra uma interface web a um banco de dados real e modelado por alunos`
 
-**EP** - `Análise combinatória, distribuições probabilísticas e testes de hipóteses essenciais para a ciência de dados`
+## AC1
 
-**GD** - `Concepção de mecânicas, narrativas, balanceamento e aplicação prática de scripts em motores gráficos como a Godot`
+`Álgebra booleana, portas lógicas e o design de circuitos digitais combinacionais e sequenciais`
 
-**F:RM** - `Análise crítica sobre a evolução do pensamento moderno e a racionalidade científica`
+## ISI
 
-**AC3** - `Hierarquia de memória, desempenho de cache, sistemas de entrada/saída e ambientes multiprocessados`
+`Panorama geral sobre agentes autônomos, heurísticas de busca e conceitos básicos de processamento de dados e IA`
 
-**F:AE** - `Discussão sobre ética profissional, a condição humana e os dilemas morais causados pela tecnologia`
+## CR:FR
 
-**AEDSIII** - `Estruturas avançadas para indexação e buscas eficientes, como Tabelas Hash, árvores AVL, B e B+`
+`Reflexão humanística sobre o papel das religiões e da fé na construção da sociedade`
 
-**TIAM** - `Construção e prototipação de um projeto voltado para o ecossistema de smartphones`
+## CALC2
 
-**LP** - `Teoria, gramáticas formais e estudo comparativo de diferentes paradigmas (imperativo, orientado a objetos, funcional)`
+`Expansão matemática englobando derivadas parciais, funções de várias variáveis e integrais múltiplas (Cálculo Integral)`
 
-**PC** - `Análise do comportamento, impulsos e desejos sob a ótica humana para compreender como necessidades pautam interações mercadológicas e de usabilidade`
+## AC2
 
-**LDDM** - `Prática intensiva de codificação nativa ou híbrida (como Android/Java ou Kotlin) para criação de aplicativos`
+`Organização do processador, conjunto de instruções, programação em baixo nível (Assembly) e caminho de dados`
 
-**SO** - `Gerenciamento de memória (paginação), processos, threads e controle de concorrência, como a prevenção de deadlocks`
+## TIPA
 
-**TGC** - `Algoritmos de travessia (como Dijkstra), autômatos, linguagens regulares e a Máquina de Turing`
+`Estudo aprofundado sobre artigos acadêmicos e científicos, além do uso desses conceitos para elaboração de um projeto de pesquisa próprio`
 
-**MAD** - `Avaliação de desempenho, determinação de saturação de carga e aplicação da teoria das filas (como modelos M/M/1)`
+## ES1
 
-**IA** - `Aprofundamento matemático em machine learning, abrangendo algoritmos como árvores de decisão (cálculo de entropia e índice de Gini) e redes neurais`
+`Engenharia de requisitos, casos de uso e metodologias ágeis (como Scrum) para o ciclo de vida do software`
 
-**ES2** - `Arquitetura avançada de software, testes de qualidade (QA) e Padrões de Projeto (Design Patterns)`
+## EP
 
-**GAAL** - `Matrizes, vetores e transformações no espaço (base matemática crítica para computação gráfica e redes neurais)`
+`Análise combinatória, distribuições probabilísticas e testes de hipóteses essenciais para a ciência de dados`
 
-**PAA** - `Análise de complexidade (Notação Big-O), estratégias de divisão e conquista e programação dinâmica`
+## GD
 
-**RI** - `Arquitetura da internet baseada na pilha TCP/IP e no modelo OSI, abordando as camadas de aplicação, transporte e rede`
+`Concepção de mecânicas, narrativas, balanceamento e aplicação prática de scripts em motores gráficos como Godot`
 
-**SAS** - `Fundamentos de criptografia, detecção de vulnerabilidades e defesa contra ataques cibernéticos`
+## F:RM
 
-**OS** - `Pesquisa operacional, modelagem matemática de problemas e algoritmos de programação linear`
+`Análise crítica sobre a evolução do pensamento moderno e a racionalidade científica`
 
-**TISC** - `Projeto final de integração voltado para otimização, escalabilidade ou sistemas distribuídos`
+## AC3
 
-**CS** - `Impactos sociais e econômicos da tecnologia da informação, legislações digitais e privacidade`
+`Hierarquia de memória, desempenho de cache, sistemas de entrada/saída e ambientes multiprocessados`
+
+## F:AE
+
+`Discussão sobre ética profissional, a condição humana e os dilemas morais causados pela tecnologia`
+
+## AEDS3
+
+`Estruturas avançadas para indexação e buscas eficientes, como Tabelas Hash, árvores AVL, B e B+`
+
+## TIAM
+
+`Construção e prototipação de um projeto voltado para o ecossistema de smartphones`
+
+## LP
+
+`Teoria, gramáticas formais e estudo comparativo de diferentes paradigmas (imperativo, orientado a objetos, funcional)`
+
+## PC
+
+`Análise do comportamento, impulsos e desejos sob a ótica humana para compreender como necessidades pautam interações mercadológicas e de usabilidade`
+
+## LDDM
+
+`Prática intensiva de codificação nativa ou híbrida (como Android/Java ou Kotlin) para criação de aplicativos`
+
+## SO
+
+`Gerenciamento de memória (paginação), processos, threads e controle de concorrência, como a prevenção de deadlocks`
+
+## TGC
+
+`Algoritmos de travessia (como Dijkstra), autômatos, linguagens regulares e a Máquina de Turing`
+
+## MAD
+
+`Avaliação de desempenho, determinação de saturação de carga e aplicação da teoria das filas (como modelos M/M/1)`
+
+## IA
+
+`Aprofundamento matemático em machine learning, abrangendo algoritmos como árvores de decisão (cálculo de entropia e índice de Gini) e redes neurais`
+
+## ES2
+
+`Arquitetura avançada de software, testes de qualidade (QA) e Padrões de Projeto (Design Patterns)`
+
+## GAAL
+
+`Matrizes, vetores e transformações no espaço (base matemática crítica para computação gráfica e redes neurais)`
+
+## PAA
+
+`Análise de complexidade (Notação Big-O), estratégias de divisão e conquista e programação dinâmica`
+
+## RI
+
+`Arquitetura da internet baseada na pilha TCP/IP e no modelo OSI, abordando as camadas de aplicação, transporte e rede`
+
+## SAS
+
+`Fundamentos de criptografia, detecção de vulnerabilidades e defesa contra ataques cibernéticos`
+
+## OS
+
+`Pesquisa operacional, modelagem matemática de problemas e algoritmos de programação linear`
+
+## TISC
+
+`Projeto final de integração voltado para otimização, escalabilidade ou sistemas distribuídos`
+
+## CS
+
+`Impactos sociais e econômicos da tecnologia da informação, legislações digitais e privacidade`
+
 
 ---
 
 # Projetos em Destaque
 
-Os projetos abaixo representam alguns dos trabalhos mais relevantes, interessantes ou tecnicamente significativos desenvolvidos ao longo do curso.
+Os projetos abaixo representam alguns dos trabalhos mais relevantes ou tecnicamente significativos desenvolvidos ao longo do curso.
 
 ## `Nome do Projeto`
 
 > `Descrição de uma linha sobre o que o projeto faz ou qual problema ele aborda.`
 
-**Desenvolvido em:** `Semestre / Ano`
-
-**Disciplina:** `Nome da Disciplina`
+**Desenvolvido em:** [TIAM](#tiam) e [LDDM](#lddm) em 2025 / 2° Semestre
 
 **Tecnologias:** `C · Java · Python · TypeScript · ...`
 
@@ -155,8 +227,6 @@ Os projetos abaixo representam alguns dos trabalhos mais relevantes, interessant
 
 ### Principais Contribuições
 
-* `Contribuição ou funcionalidade`
-* `Contribuição ou funcionalidade`
 * `Contribuição ou funcionalidade`
 
 **Repositório:** `Link para o projeto`
@@ -183,10 +253,6 @@ Os projetos abaixo representam alguns dos trabalhos mais relevantes, interessant
 * `Contribuição`
 * `Contribuição`
 
-### O que Aprendi
-
-`Principais aprendizados.`
-
 **Repositório:** `Link para o projeto`
 
 ---
@@ -195,22 +261,16 @@ Os projetos abaixo representam alguns dos trabalhos mais relevantes, interessant
 
 O repositório pode ser organizado de acordo com o período acadêmico em que cada trabalho foi desenvolvido.
 
-```text
+```
 .
-├── semestre-01/
-│   ├── disciplina-XXXX/
-│   └── disciplina-XXXX/
-├── semestre-02/
-│   ├── disciplina-XXXX/
-│   └── disciplina-XXXX/
-├── semestre-03/
+│
+├── Humanas/
+│   ├── disciplina-0001
+│   ├── disciplina-0002
 │   └── ...
-├── semestre-04/
-│   └── ...
-├── projetos/
-│   ├── projeto-01/
-│   ├── projeto-02/
-│   └── ...
+├── disciplina-0001
+├── disciplina-0002
+├── ...
 └── README.md
 ```
 
