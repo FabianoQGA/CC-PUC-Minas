@@ -206,7 +206,6 @@ Esta seção organiza e descreve cada matéria já feita ou em andamento.
 
 `Impactos sociais e econômicos da tecnologia da informação, legislações digitais e privacidade`
 
-
 ---
 
 # Projetos em Destaque
@@ -230,48 +229,3 @@ Os projetos abaixo representam alguns dos trabalhos mais relevantes ou tecnicame
 * `Contribuição ou funcionalidade`
 
 **Repositório:** `Link para o projeto`
-
----
-
-## `Nome do Projeto`
-
-> `Descrição de uma linha.`
-
-**Desenvolvido em:** `Semestre / Ano`
-
-**Disciplina:** `Nome da Disciplina`
-
-**Tecnologias:** `Tecnologia 1 · Tecnologia 2`
-
-### Visão Geral
-
-`Descrição do projeto.`
-
-### Principais Contribuições
-
-* `Contribuição`
-* `Contribuição`
-* `Contribuição`
-
-**Repositório:** `Link para o projeto`
-
----
-
-# Estrutura do Repositório
-
-O repositório pode ser organizado de acordo com o período acadêmico em que cada trabalho foi desenvolvido.
-
-```
-.
-│
-├── Humanas/
-│   ├── disciplina-0001
-│   ├── disciplina-0002
-│   └── ...
-├── disciplina-0001
-├── disciplina-0002
-├── ...
-└── README.md
-```
-
-A estrutura será alterada conforme o repositório evolui.
