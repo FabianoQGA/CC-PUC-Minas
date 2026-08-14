@@ -7,20 +7,23 @@ Biblioteca de projetos, trabalhos e outras atividades desenvolvidas ao longo do 
 Todas matérias, incluindo matérias de religião e filosofia (presentes em pastas à parte), já concluídas ou em andamento estão presentes aqui nesse repositório.
 Não armazeno provas, materiais teóricos nem outros tipos de materiais, apenas projetos com seus devidos enunciados.
 > Para saber mais sobre uma disciplina aperte nela para ver um descrição dela.
+
 > Materiais de cada disciplina estão na pasta com sua abreviação correspondente.
+
+> Algumas matérias apenas tiveram provas e testes online como avaliação, logo podem não ter conteúdo relevante. Nesse caso não terá nenhuma pasta da disciplina correspondente.
 
 # Index de disciplinas
 
 Esta seção organiza e descreve cada matéria já feita ou em andamento.
 
-| Disciplina                                                       | Sigla |
-| ---------------------------------------------------------------- | ----- |
-| [Algoritmos e Estruturas de Dados I](#aeds1)                     | AEDS1 |
-| [Desenvolvimento e Interfaces Web](#diw)                         | DIW   |
-| [Trabalho Interdisciplinar I - Aplicações Web](#tiaw)            | TIAW  |
-| [Laboratório de Iniciação à Programação](#lip)                   | LIP   |
-| [Introdução à Computação](#ic)                                   | IC    |
-| [Cálculo I](#calc1)                                              | CALC1 |
+| Disciplina                                                       | Sigla | Presença de conteúdo |
+| ---------------------------------------------------------------- | ----- | -------------------- |
+| [Algoritmos e Estruturas de Dados I](#aeds1)                     | AEDS1 | ✔️                   
+| [Desenvolvimento e Interfaces Web](#diw)                         | DIW   | ✔️
+| [Trabalho Interdisciplinar I - Aplicações Web](#tiaw)            | TIAW  | ✔️
+| [Laboratório de Iniciação à Programação](#lip)                   | LIP   | ✔️
+| [Introdução à Computação](#ic)                                   | IC    | ✔️
+| [Cálculo I](#calc1)                                              | CALC1 | ❌
 | [Algoritmos e Estruturas de Dados II](#aeds2)                    | AEDS2 |
 | [Banco de Dados](#bd)                                            | BD    |
 | [Trabalho Interdisciplinar II Banco de Dados](#tibd)             | TIBD  |
