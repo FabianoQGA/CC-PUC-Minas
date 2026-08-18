@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS 5.1.3 - 04/2022 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Fontawesome 6.1.1 - 04/2022 -->
+
+    <!-- Fonte do texto -->
+
+    <title>Portal de Filmes</title>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Barra de navegação superior -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <img class="navbar-brand" src="imgs/cinelogo.jpg" width="100px" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#lancamentos">Lançamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destaques">Em destaque</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#avaliacoes">Avaliações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#entrevistas">Entrevistas & Making of</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#novidades">Novidades</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar filme"
+                            aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Bloco de Lançamento -->
+        <div class="container main">
+            <h2 class="lancamentos" id="lancamentos">Lançamentos</h2>
+        </div>
+        <div class="row" id="lancamentos">
+
+            <div class="col-12 carousel_todo">
+
+                <div class="row carousel">
+                  <div class="col-12">
+                    <div class="col-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 midia">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/P1GRO31ve5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-block w-100" alt="carousel_1"></iframe>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-5 texto_carousel">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="col-12 titulo_filme">
+                                                    <h1>
+                                                        Rio
+                                                    </h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 sinopse">
+                                                <span class="subtitulo">
+                                                    SINOPSE:
+                                                </span>
+                                                <span>
+                                                    Chihiro é uma garota de 10 anos que acredita que todo o universo deve atender aos seus caprichos. Ao descobrir que vai se mudar, ela fica furiosa. Na viagem, Chihiro percebe que seu pai se perdeu no caminho para a nova cidade, indo parar defronte um túnel aparentemente sem fim, guardado por uma estranha estátua. Curiosos, os pais de Chihiro decidem entrar no túnel e Chihiro vai com eles. Chegam numa cidade sem nenhum habitante e os pais de Chihiro decidem comer a comida de uma das casas, enquanto a menina passeia. Ela encontra com Haku, garoto que lhe diz para ir embora o mais rápido possível e ao reencontrar seus pais, Chihiro fica surpresa ao ver que eles se transformaram em gigantescos porcos. É o início da jornada de Chihiro por um mundo fantasma, povoado por seres fantásticos, no qual humanos não são bem-vindos.
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4 diretor">
+                                                <h3>DIRETOR:</h3> Carlos Saldanha
+                                            </div>
+                                            <div class="col-4 roteiro">
+                                                <h3>ROTEIRO:</h3> Carlos Saldanha, Don Rhymer
+                                            </div>
+                                            <div class="col-4 estreia">
+                                                <h3>ESTREIA:</h3> 2011
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 elenco">
+                                                <h3>
+                                                    DUBLADORES PRINCIPAIS:
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 atores">
+                                                <p>
+                                                    Anne Hathaway, Jesse Eisenberg, Will.I.Am
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 avaliacao">
+                                                <h3>
+                                                    AVALIACAO: 3/5
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 estrelas">
+                                                <!-- To display checked star rating icons -->  
+                                                <span class = "fa fa-star checked"></span>  
+                                                <span class = "fa fa-star checked"></span>  
+                                                <span class = "fa fa-star checked"></span>  
+                                                <span class = "fa fa-star checked"></span>  
+                                                <!-- To display unchecked star rating icons -->  
+                                                <span class = "fa fa-star checked"></span>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-item">
+                                    <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 midia">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/M2LMRXkAZSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-block w-100" alt="carousel_2"></iframe>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-5 texto_carousel">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="col-12 titulo_filme">
+                                                    <h1>
+                                                        Aves de Rapina
+                                                    </h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 sinopse">
+                                                <span class="subtitulo">
+                                                    SINOPSE:
+                                                </span>
+                                                <span>
+                                                    Depois de se separar do Coringa, Harley Quinn se junta as super-heroínas Canário Negro, Caçadora e Renee Montoya para salvar uma jovem de um perigoso criminoso.
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4 diretor">
+                                                <h3>DIRETOR:</h3> Cathy Yan
+                                            </div>
+                                            <div class="col-4 roteiro">
+                                                <h3>ROTEIRO:</h3> Christina Hodson
+                                            </div>
+                                            <div class="col-4 estreia">
+                                                <h3>ESTREIA:</h3> 2020
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 elenco">
+                                                <h3>
+                                                    ELENCO:
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 atores">
+                                                <p>
+                                                    Margot Robbie, Mary Elizabeth Winstead, Jurnee Smollett
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 avaliacao">
+                                                <h3>
+                                                    AVALIACAO: 5/5
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 estrelas">
+                                                <!-- To display checked star rating icons -->  
+                                                <span class = "fa fa-star checked"></span>  
+                                                <span class = "fa fa-star checked"></span>  
+                                                <span class = "fa fa-star checked"></span>  
+                                                <span class = "fa fa-star checked"></span>  
+                                                <!-- To display unchecked star rating icons -->  
+                                                <span class = "fa fa-star unchecked"></span>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-item">
+                                    <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 midia">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/zRMicKd9IH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-block w-100" alt="carousel_3"></iframe>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-5 texto_carousel">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="col-12 titulo_filme">
+                                                    <h1>
+                                                        Encanto
+                                                    </h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 sinopse">
+                                                <span class="subtitulo">
+                                                    SINOPSE:
+                                                </span>
+                                                <span>
+                                                    Encanto é o novo filme de animação da Disney, situada na Colômbia. Nela, a família Madrigal e a comunidade em volta da casa da família é cercada por montanhas, que os deixam protegidos dos maus do mundo. Porém, a família Madrigal é dotada de magia, com cada um dos integrantes da família tendo algum poder mágico que é usado para ajudar a comunidade. Apesar da família ser dotada de magia, apenas um integrante dela não recebeu seu dom quando tinha cinco anos, Mirabel, que sempre tenta ajudar a família e a comunidade como consegue, mas não importa o que faça, ela nunca consegue agradar sua Abuela. Um dia, na noite em que um de seus primos recebe seus dons, ela vê a casa da família rachando, algo que é relevado pela família, já que ela não tem poderes mágicos. Mirabel então parte em uma aventura própria para achar o que há de errado com a casa e salvar todos de sua família, e o único que pode dar as respostas é seu tio Bruno, que vê o futuro. O único problema é que ele saiu um dia e nunca mais voltou.
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4 diretor">
+                                                <h3>DIRETORES:</h3> Charise Castro Smith, Byron Howard, Jared Bush
+                                            </div>
+                                            <div class="col-4 roteiro">
+                                                <h3>ROTEIRO:</h3> Jared Bush, Charise Castro Smith
+                                            </div>
+                                            <div class="col-4 estreia">
+                                                <h3>ESTREIA:</h3> 2021 de novembro
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 elenco">
+                                                <h3>
+                                                    DUBLADORES:
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 atores">
+                                                <p>
+                                                    Stephanie Beatriz, John Leguizamo, Wilmer Valderrama
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 avaliacao">
+                                                <h3>
+                                                    AVALIACAO: 4/5
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 estrelas">
+                                                <!-- To display checked star rating icons -->  
+                                                <span class = "fa fa-star checked"></span>  
+                                                <span class = "fa fa-star checked"></span>  
+                                                <span class = "fa fa-star checked"></span>  
+                                                <span class = "fa fa-star unchecked"></span>  
+                                                <!-- To display unchecked star rating icons -->  
+                                                <span class = "fa fa-star unchecked"></span>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloco de Destaque -->
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="destaques" id="destaques">Em destaque</h2>
+                </div>
+                <div class="col-6">
+                    <div class="dropdown" style="text-align: right;">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categoria: TODOS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Ação</a></li>
+                            <li><a class="dropdown-item" href="#">Drama</a></li>
+                            <li><a class="dropdown-item" href="#">Terror</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="card" widht="100%">
+                        <img src="imgs/buzz1.webp" class="card-img-top" alt="filme1">
+                        <div class="card-body">
+                            <p class="card-text"><b>Lightyear</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="card" widht="100%">
+                        <img src="imgs/sonic2.png" class="card-img-top" alt="filme1">
+                        <div class="card-body">
+                            <p class="card-text"><b>Sonic 2: O Filme</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="card" widht="100%">
+                        <img src="imgs/thebatman.webp" class="card-img-top" alt="filme1">
+                        <div class="card-body">
+                            <p class="card-text"><b>The Batman</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="card" widht="100%">
+                        <img src="imgs/uncharted2.jpg" class="card-img-top" alt="filme1">
+                        <div class="card-body">
+                            <p class="card-text"><b>Uncharted 2</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="text-align: right; margin-top: 10px;">
+            <div class="row">
+                <div class="col-12">
+                    <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais filmes</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloco de Avaliação pelos Usuários -->
+        <div class="container">
+            <h2 class="avaliacoes" id="avaliacoes">Últimas avaliações</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="profile-header-container">
+                                    <img class="img-circle" src="imgs/avatar1.jpg" height="100%" width="100%" />
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h6>Antonino da Silva</h6>
+                                <p><b>Avaliação:</b> Eu amei esse filme. É uma obra de arte. Apesar de ser longo acho que todas as cenas foram necessárias e muito épicas. Assisti 4 vezes diferentes no total e assistiria mais uma.</p>
+                                <p>★★★☆☆ - 15/04/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="profile-header-container">
+                                    <img class="img-circle" src="imgs/avatar2.jpg" height="100%" width="100%" />
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h6>Carolita Antonieta</h6>
+                                <p><b>Avaliação:</b> A gente realmente vive em uma sociedade. Esse filme me fez questionar sobre os caminhos que estamos seguindo como sociedade e como estamos tratando as pessoas com doenças mentais. Amei o filme, já se tornou um dos meus preferidos.</p>
+                                <p>★★★★★ - 15/04/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="profile-header-container">
+                                    <img class="img-circle" src="imgs/avatar3.jpg" height="100%" width="100%" />
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h6>Pedro Pereira</h6>
+                                <p><b>Avaliação:</b> Fui com meus sobrinhos assistir ao filme e eles gostaram bastante.  Eu não gostei tanto por se tratar de um filme infantil mas recomendo para levar as crianças para ver</p>
+                                <p>★★★★☆ - 13/04/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="text-align: right; margin-top: 10px;">
+            <div class="row">
+                <div class="col-12">
+                    <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais avaliações</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloco de Entrevistas & Making of -->
+        <div class="container">
+            <h2 class="entrevistas" id="entrevistas">Entrevistas & Making of</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-12 col-md-12 col-lg-4">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0uJ8vMfk-c4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12 col-lg-4">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mox0_xGO-Do"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12 col-lg-4">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/OD92DVoYJ8M"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <p><b>Filme:</b> Vingadores: Ultimato<br>
+                        <b>Diretor(es):</b> Anthony Russo e Joe Russo<br>
+                        <b>Roteiro:</b> Christopher Markus e Stephen McFeely <b>Estreia:</b> 25 de abril de 2019
+                    </p>
+                </div>
+                <div class="col-4">
+                    <p><b>Filme:</b> Coringa<br>
+                        <b>Diretor(es):</b> Todd Phillips<br>
+                        <b>Roteiro:</b> Todd Phillips e Scott Silver <b>Estreia:</b> 3 de outubro de 2019
+                    </p>
+                    </p>
+                </div>
+                <div class="col-4">
+                    <p><b>Filme:</b> Sonic 2<br>
+                        <b>Diretor(es):</b> Jeff Fowler<br>
+                        <b>Roteiro:</b> Patrick Casey, Josh Miller (...) <b>Estreia:</b> 8 de abril de 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="text-align: right; margin-top: 10px;">
+            <div class="row">
+                <div class="col-12">
+                    <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais filmes</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloco de Entrevistas & Making of -->
+        <div class="container">
+            <div class="row">
+                <div class="col-8" class="imgs_noticias">
+                    <h2 class="novidades" id="novidades">Novidades</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-11 col-md-4">
+                                <img height="100%" width="100%" src="imgs/alien1.jpg" alt="imagem1">
+                            </div>
+                            <div class="col-xs-12 col-12 col-md-6">
+                                <h5>A ordem dos filmes da franquia Alien
+                                </h5>
+                                <p>Uma das mais famosas obras de ficção científica do cinema, a franquia Alien teve ao todo oito filmes lançados, com tramas que variaram entre sequências, prequels e derivados com outras séries. Pensando em quem deseja maratonar os seus títulos, mas não sabe por onde começar, explicamos abaixo a ordem de lançamento dos filmes da franquia Alien e a cronologia de sua história.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-top: 10px;">
+                        <div class="row">
+                            <div class="ol-xs-12 col-11 col-md-4">
+                                <img height="100%" width="100%" src="imgs/upfilme1.jpg" alt="imagem1">
+                            </div>
+                            <div class="col-xs-12 col-12 col-md-6">
+                                <h5>Up Altas Aventuras: 13 lições que aprendemos com o filme da Pixar
+                                </h5>
+                                <p>Já faz 13 anos que o público se emocionou pela primeira vez com as cenas iniciais de Up: Altas Aventuras, lançado originalmente pela Pixar em 2009. Com personagens cativantes, a produção encantou pessoas de todas as idades com suas lições valiosas e um enredo comovente. Dessa maneira, selecionamos alguns desses ensinamentos importantes vistos no filme.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-top: 10px; margin-bottom: 15px;">
+                        <div class="row">
+                            <div class="ol-xs-12 col-11 col-md-4">
+                                <img height="100%" width="100%" src="imgs/aranha1.jpeg" alt="imagem1">
+                            </div>
+                            <div class="col-xs-12 col-12 col-md-6">
+                                <h5>Fã gasta R$ 16 mil para assistir 'Homem-Aranha: Sem Volta para Casa' 292 vezes
+                                </h5>
+                                <p>Todo mundo que é fã de um filme já o viu várias vezes, talvez até dezenas, quem sabe. Porém, o norte-americano Ramiro Alanis foi além. O fã de quadrinhos bateu um recorde mundial e entrou no Guinness Book ao assistir "Homem-Aranha: Sem Volta para Casa" 292 vezes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bloco de Sobre -->
+                <div class="col-4">
+
+                
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <p class="footertext">© 2022 Copyright: Desenvolvimento de Interfaces Web -
+                <b>ICEI PUC MINAS</b>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Javascript 2.10 - 04/2022 -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+        crossorigin="anonymous"></script>-->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

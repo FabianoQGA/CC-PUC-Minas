@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações Adicionais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Informações do filme</h1>
+    <div class="container">
+        <div id="divDetalhe" class="row">
+
+        </div> 
+    </div>
+
+    <script>
+        const params = new URLSearchParams(location.search);
+        let id = params.get('id');
+        let divDetalhe = '';
+
+        dadosFilmes = JSON.parse (localStorage.getItem('db_filmes'));
+        let idxFilme = dadosFilmes.results.findIndex ((elemento) => elemento.id == id);
+
+        const funcErro = () => {
+        alert ('Requisição de informações mal sucedida');
+        }
+
+        mostrarI = (data) => {
+        let divDetalhe = '';
+        let dadosM = JSON.parse(data.target.response);
+
+        let filme = dadosM.results;
+        divDetalhe = `
+        <div class="card col-3 bgcolor" margin-bottom="40px">
+            <img src="https://image.tmdb.org/t/p/w500${filme.poster_path}" height="40%" width="80%" class="imgAjaxPopular" alt="${filme.title}.jpg">
+            <div class="card-body" horizontal-align="center">
+                <h5 class="card-title">${filme.title}</h5>
+                <p class="card-text">${filme.overview}</p>
+                <br>Data:${filme.release_date}</br>
+                <a href="detalhes.html?id=${filme.id}" class="btn btn-primary">Detalhes...</a>
+            </div>
+        </div>
+        `;
+        }
+
+        const funcM = () => {
+            let xhr = new XMLHttpRequest ();
+            let url = `https://api.themoviedb.org/3/movie/${id}?language=pt-BR`;
+            xhr.onload = mostrarI;
+            xhr.onerror = funcErro;
+            xhr.open ('GET', url, true);
+            xhr.send ();
+        }
+
+        if (idxFilme > -1) //1:06 incluir info filme do card boostrap
+        {
+            document.getElementById('divDetalhe').innerHTML = "Código do Filme: " + params.get('id') + divDetalhe;
+        }
+        else
+        {
+            alert ('404 - Filme nao encontrado');
+        }
+    </script>
+</body>
+</html>

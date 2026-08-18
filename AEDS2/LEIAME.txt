@@ -1,0 +1,29 @@
+*Todas questões leem arquivos com a extensão .in e produzem um output que deve ser comparado com um arquivo
+.out. O nível de semelhança do arquivo .out com a saída refere-se a nota obtida no exercício.
+
+*Todas questões têm uma nota privada e pública, referentes aos priv.in e pub.in. 
+O priv.in não é disponibilizado para os alunos, então apenas a porcentagem de acertos referentes a leitura
+do priv.in (dentro do verde.icei.pucminas.br, oculto) é mostrada.
+
+*A partir da 2ª parte desse trabalho vários trechos de códigos foram disponibilizados pelos professores para
+a elaboração das questões, logo, códigos de algoritmos de ordenação, estruturas de dados e etc. foram 
+incorporados ao código produzido pelo aluno (material disponível em https://github.com/icei-pucminas/aeds2 
+no primeiro semestre de 2025).
+
+*Precisa-se extrair as pastas em pubs.zip primeiro para depois redirecionar a entrada do executável a partir do pub.in
+
+*A partir da 2ª parte desse trabalho, para executar cada código, coloque local do terminal shell (linux) no 
+diretório da questão selecionada, extraia os pubs em pubs.zip e rode os seguintes comandos depois que o executável
+for gerado e a saída for obtida em arquivo:
+
+Para extraír saída em C:
+./<nomeExecutável> < pub.in > saida.out
+
+Para extraír saída em Java:
+java <nomeExecutável> < pub.in > saida.out
+
+Para ver desempenho do código em C e Java:
+*Comando de baixo indica número de linhas erradas
+diff pub.out saida.out | wc -l 
+#Comando de baixo indica número de linhas do arquivo resposta
+wc -l pub.out

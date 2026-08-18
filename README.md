@@ -24,11 +24,11 @@ Esta seção organiza e descreve cada matéria já feita ou em andamento.
 | [Laboratório de Iniciação à Programação](#lip)                   | LIP   | ✔️
 | [Introdução à Computação](#ic)                                   | IC    | ✔️
 | [Cálculo I](#calc1)                                              | CALC1 | ❌
-| [Algoritmos e Estruturas de Dados II](#aeds2)                    | AEDS2 |
-| [Banco de Dados](#bd)                                            | BD    |
-| [Trabalho Interdisciplinar II Banco de Dados](#tibd)             | TIBD  |
-| [Arquitetura de Computadores I](#ac1)                            | AC1   |
-| [Introdução aos Sistemas Inteligentes](#isi)                     | ISI   |
+| [Algoritmos e Estruturas de Dados II](#aeds2)                    | AEDS2 | ✔️
+| [Banco de Dados](#bd)                                            | BD    | ❌
+| [Trabalho Interdisciplinar II Banco de Dados](#tibd)             | TIBD  | ✔️
+| [Arquitetura de Computadores I](#ac1)                            | AC1   | ❌
+| [Introdução aos Sistemas Inteligentes](#isi)                     | ISI   | ✔️
 | [Cultura Religiosa: Fenômeno Religioso](#crfr)                   | CR:FR |
 | [Cálculo II](#calc2)                                             | CALC2 |
 | [Arquitetura de Computadores II](#ac2)                           | AC2   |

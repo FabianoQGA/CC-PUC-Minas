@@ -1,0 +1,15 @@
+Devido a um equívoco que não foi resolvido a tempo, o programa original submetido não lia arquivos priv.in
+e, logo, não dava taxa de acerto alta no priv.out. Porém, com a nova versão esse problema da baixa taxa de 
+acerto no privado provavelmente não existiria, pois o público teve acerto total, mas como não consegui 
+submeter no verde (site de avaliar atividades do curso), não tive acesso às novas taxas de acerto do público
+e do privado
+
+Abaixo dos testes do programa original, tem se os testes de simulação com a nova versão. É uma simulação pois
+a comparação foi feita pelo comando diff do linux, não pelo verde.
+
+Versao sem ler privado:
+Nota público: 100%
+Nota privado: 33.9%
+
+Versao consertada:
+Nota público(simulação): 100%

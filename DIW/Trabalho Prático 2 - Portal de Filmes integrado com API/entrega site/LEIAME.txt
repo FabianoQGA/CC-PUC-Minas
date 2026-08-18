@@ -1,0 +1,3 @@
+Função de pesquisa não funcional, porém as requisições são recebidas de forma correta, assim como detalhes de filme.
+
+AMBIENTE DO REPLIT: https://replit.com/@FabianoQGA/PortalFilmes782195-Com-API-AJAX?v=1

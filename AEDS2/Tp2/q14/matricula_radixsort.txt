@@ -1,0 +1,3 @@
+782195	1230924.000000	3676	0
+O Radix Sort é um algoritmo de ordenação não-comparativo que processa dígitos individuais dos números para ordenação. Ele utiliza de um outro algoritmo (countingsort) para ordernar os elementos. 
+Passo a passo: *identificar o número máximo *analisar cada dígito do menos significativo ao mais significativo, depois seguir para os outros dígitos (de unidade até dezena etc.)
