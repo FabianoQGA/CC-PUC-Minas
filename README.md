@@ -213,22 +213,12 @@ Esta seção organiza e descreve cada matéria já feita ou em andamento.
 
 # Projetos em Destaque
 
-Os projetos abaixo representam alguns dos trabalhos mais relevantes ou tecnicamente significativos desenvolvidos ao longo do curso.
+## `TP2 ao TP4 de AEDS2`
 
-## `Nome do Projeto`
+> `Trabalhos Práticos de AEDS2 que envolvem em ler um CSV desorganizado, interpretá-lo e também realizar algumas operações de pesquisa e ordenação`
 
-> `Descrição de uma linha sobre o que o projeto faz ou qual problema ele aborda.`
+`Apresenta, especialmente em C, conceitos fundamentais de ponteiros de ponteiros de strings (char **str), indispensáveis para escrever um código funcional sem erros constantes de Segmentation Fault em C`
 
-**Desenvolvido em:** [TIAM](#tiam) e [LDDM](#lddm) em 2025 / 2° Semestre
+**Disciplina:** [Aeds2](#AEDS2)
 
-**Tecnologias:** `C · Java · Python · TypeScript · ...`
-
-### Visão Geral
-
-`Explique o projeto em algumas frases. Dê preferência ao propósito do projeto em vez de apenas descrever sua implementação.`
-
-### Principais Contribuições
-
-* `Contribuição ou funcionalidade`
-
-**Repositório:** `Link para o projeto`
+**Tecnologias:** `C · Java`
