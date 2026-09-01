@@ -1,11 +1,11 @@
 # Arquivo pessoal geral - Ciência da computação 2022
 
-Biblioteca de projetos, trabalhos e outras atividades desenvolvidas ao longo do meu curso de graduação.
+Biblioteca de projetos, trabalhos e outras atividades desenvolvidas na graduação.
 
 ## Sobre o repositório
 
 Todas matérias, incluindo matérias de religião e filosofia (presentes em pastas à parte), já concluídas ou em andamento estão presentes aqui nesse repositório.
-Não armazeno provas, materiais teóricos nem outros tipos de materiais, apenas projetos com seus devidos enunciados.
+Não armazeno provas ou materiais didáticos apenas atividades de minha autoria ou de grupos que fiz parte.
 > Para saber mais sobre uma disciplina aperte nela para ver um descrição dela.
 
 > Materiais de cada disciplina estão na pasta com sua abreviação correspondente.
